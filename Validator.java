@@ -8,7 +8,7 @@ public class Validator {
 	 * 5) the string contains at least 1 upper case letter
 	 */
 	public  boolean validate(String pass) {
-		if(pass.equals("password"))
+		if(pass.toLowerCase().equals("password"))
 			return false;
 		if(pass.length()<8)
 			return false;
