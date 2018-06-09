@@ -11,14 +11,10 @@ public class ValidatorTest {
 	}
 	@Test
 	public void test2() {
-		assertFalse(v.validate("123456"));
+		assertFalse(v.validate("Password"));
 	}
 	@Test
 	public void test3() {
-		assertTrue(v.validate("Password"));
-	}
-	@Test
-	public void test4() {
 		assertTrue(v.validate("12345678"));
 	}
 }
