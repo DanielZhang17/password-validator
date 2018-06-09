@@ -1,9 +1,10 @@
 package csci3130_project.group8.assignment2;
 
+import org.junit.Test;
+
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+
 
 public class ValidatorTest {
 	private Validator v = new Validator();
